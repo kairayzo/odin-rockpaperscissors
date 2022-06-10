@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.msg {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+    height: 30px;;
+}
+
+.scoreboard {
+    display: flex;
+    font-size: 150px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.playerScore, .computerScore {
+    border: black solid;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-self: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    font-size: 30px;
+    height: 100px;
+    width: 300px;
+    border-radius: 50px;
+}
